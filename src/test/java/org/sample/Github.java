@@ -18,7 +18,8 @@ public class Github {
 		username.sendKeys("Ilango");
 		WebElement pass = driver.findElement(By.id("pass"));
 		pass.sendKeys("123445");
-
+WebElement login = driver.findElement(By.name("login"));
+	login.click();
 	}
 
 }
